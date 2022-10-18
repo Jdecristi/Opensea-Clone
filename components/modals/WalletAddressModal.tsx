@@ -53,7 +53,7 @@ const WalletAddressModal: React.FC<Props> = ({ close }) => {
             footer: (
                <>
                   <p className={style.disclaimer}>
-                     This site only uses <b>Rinkeby</b> test network please make sure to have a <b>Rinkeby</b> wallet and sufficient <b>Test</b> ETH
+                     This site only uses <b>Goerli</b> test network please make sure to have a <b>Goerli</b> wallet and sufficient <b>Test</b> ETH
                   </p>
                   <h2 className={style.paragraph}>
                      Dont have a MetaMask? Learn how to get one{' '}

@@ -5,7 +5,7 @@ import Layout from '../layouts/Layout';
 
 function MyApp({ Component, pageProps }: AppProps) {
    return (
-      <ThirdwebProvider desiredChainId={ChainId.Rinkeby}>
+      <ThirdwebProvider desiredChainId={ChainId.Goerli}>
          <Layout>
             <Component {...pageProps} />
          </Layout>

@@ -110,7 +110,7 @@ const CollectionAddress: NextPage = () => {
                ) : (
                   <span className={style.creator}>
                      By:{' '}
-                     <Link href={`/${currentCollection?.ownerAddress}`}>
+                     <Link href={`/profiles/${currentCollection?.ownerAddress}`}>
                         <span className="cursor-pointer hover:border-b-2">{currentCollection?.ownerName}</span>
                      </Link>
                   </span>
